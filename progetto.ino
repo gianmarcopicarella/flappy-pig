@@ -114,8 +114,11 @@ void init_game_over(){
   first_render = true;
 }
 
+float v = 0;
+
 void update_menu(){
-  static float angle = 0.f;
+  static float v = 0;
+  static int height = 86;
   // if game button is pressed then start transitioning
   if(digitalRead(2) == HIGH) is_transition = true;
   
@@ -130,9 +133,10 @@ void update_menu(){
   }
 
   // pig vertical movement
-  py += sin(angle) * 20.f * delta;
-  angle += 0.5f;
-  if(angle == 360.f) angle = 0.f;
+  if(py <= 77) height = 86;
+  else if(py >= 83) height = 74;
+  v = (height - py) / 4.f;
+  py += v * 10.f * delta;
 }
 
 void draw_menu(){
@@ -231,7 +235,7 @@ void draw_game_over(){
 
 void setup(void) {
   u8g2.begin();
-  
+  Serial.begin(9600);
   pinMode(2, INPUT);
   pinMode(4, INPUT);
   pinMode(9, OUTPUT);
