@@ -16,7 +16,6 @@ Flappy Pig
 * Easy to use controls
 * 14fps on average with a clock speed of 16mhz, 2kb of sram and a 1.5inch oled screen
 * Compatible with every monochrome SPI Arduino display
-* Make-take move functions supplied with a simple Chessboard object
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contribution you make to Flappy pig is **greatly appreciated**.
