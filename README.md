@@ -23,7 +23,7 @@ Flappy Pig
 
 [Flappy pig](https://github.com/gianmarcopicarella/flappy-pig) is an **Arduino Uno hyper casual game**. It has been developed as a side project during the university class "Arduino and multicore programming" at [Sapienza](https://www.uniroma1.it/en/pagina-strutturale/home). It uses [U8g2](https://github.com/olikraus/u8g2) to communicate, via the SPI protocol, directly to the screen hardware without worring about low level details.
 
-<img src="https://github.com/gianmarcopicarella/flappy-pig/blob/master/flappy_pig.gif?raw=true" />
+<img src="https://github.com/gianmarcopicarella/flappy-pig/blob/master/flappy_pig.gif?raw=true" max-width="350" />
 
 
 ### Features:
