@@ -2,7 +2,7 @@ Flappy Pig
 ====================
 <br/>
 <p align="center">
-  <img style="max-width='300' max-height='300'" src="https://github.com/gianmarcopicarella/flappy-pig/blob/master/flappy_pig.gif?raw=true">
+  <img width="300" src="https://github.com/gianmarcopicarella/flappy-pig/blob/master/flappy_pig.gif?raw=true">
 </p>
 <br/>
 
