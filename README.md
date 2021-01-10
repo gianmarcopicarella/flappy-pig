@@ -9,11 +9,24 @@ Flappy Pig
 [Flappy pig](https://github.com/gianmarcopicarella/flappy-pig) is an **Arduino Uno hyper casual game**. It has been developed as a side project during the university class "Arduino and multicore programming" at [Sapienza](https://www.uniroma1.it/en/pagina-strutturale/home). It uses [U8g2](https://github.com/olikraus/u8g2) to communicate, via the SPI protocol, directly to the screen hardware without worring about low level details.
 
 ## Usage
-Download the repository progetto.ino file and install the latest U8g2 library version. Navigate to the library directory and add these lines
-'''c++
-ddasdasa
-'''
+Download the repository progetto.ino file and install the latest U8g2 library version. Add the following lines inside these library files.
+```c++
+// inside U8g2lib.h right after nextPage definition
+void customPage(uint8_t page) { u8g2_customPage(&u8g2, page); }
 
+// inside u8g2.h right after u8g2_NextPage declaration
+void u8g2_customPage(u8g2_t *u8g2, uint8_t page);
+
+// inside u8g2_buffer.c right after u8g2_NextPage definition
+void u8g2_customPage(u8g2_t *u8g2, uint8_t page) {
+  if ( u8g2->is_auto_page_clear )
+  {
+    u8g2_ClearBuffer(u8g2);
+  }
+  u8g2_SetBufferCurrTileRow(u8g2, page);
+}
+```
+You can now compile and try the game!
 
 ### Features:
 * 8bit sound effects when the player dies or earns a point
