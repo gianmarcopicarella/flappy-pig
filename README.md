@@ -1,29 +1,12 @@
 Flappy Pig
 ====================
 <br/>
-<p align="center">
-    <a href="https://sulu.io/" target="_blank">
-        <img width="250px" src="https://github.com/gianmarcopicarella/virgo/blob/master/virgo_rounded_logo.png?raw=true" alt="Sulu logo">
-    </a>
-</p>
-
-<br/>
-<p align="center">
-    <a href="https://github.com/gianmarcopicarella/flappy-pig/blob/master/LICENSE" target="_blank">
-        <img src="https://img.shields.io/github/license/gianmarcopicarella/flappy-pig.svg" alt="GitHub license">
-    </a>
-    <a href="https://github.com/gianmarcopicarella/flappy-pig/releases" target="_blank">
-        <img src="https://img.shields.io/github/tag/gianmarcopicarella/flappy-pig.svg" alt="GitHub tag (latest SemVer)">
-    </a>
-    <a href="https://github.com/gianmarcopicarella/flappy-pig/graphs/contributors" target="_blank">
-        <img src="https://img.shields.io/github/contributors-anon/gianmarcopicarella/flappy-pig.svg" alt="GitHub contributors">
-    </a>
-</p>
+<img src="https://github.com/gianmarcopicarella/flappy-pig/blob/master/flappy_pig.gif?raw=true" max-width="350px !important" />
 <br/>
 
 [Flappy pig](https://github.com/gianmarcopicarella/flappy-pig) is an **Arduino Uno hyper casual game**. It has been developed as a side project during the university class "Arduino and multicore programming" at [Sapienza](https://www.uniroma1.it/en/pagina-strutturale/home). It uses [U8g2](https://github.com/olikraus/u8g2) to communicate, via the SPI protocol, directly to the screen hardware without worring about low level details.
 
-<img src="https://github.com/gianmarcopicarella/flappy-pig/blob/master/flappy_pig.gif?raw=true" max-width="350px !important" />
+
 
 
 ### Features:
