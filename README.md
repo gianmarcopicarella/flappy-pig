@@ -1,4 +1,4 @@
-Virgo
+Flappy Pig
 ====================
 <br/>
 <p align="center">
@@ -23,10 +23,12 @@ Virgo
 
 [Flappy pig](https://github.com/gianmarcopicarella/flappy-pig) is an **Arduino Uno hyper casual game**. It has been developed as a side project during the university class "Arduino and multicore programming" at [Sapienza](https://www.uniroma1.it/en/pagina-strutturale/home). It uses [U8g2](https://github.com/olikraus/u8g2) to communicate, via the SPI protocol, directly to the screen hardware without worring about low level details.
 
+![FlappyPig](https://github.com/gianmarcopicarella/flappy-pig/blob/master/flappy_pig.gif?raw=true)
+
 ### Features:
 * 8bit sound effects when the player dies or earns a point
 * Easy to use controls
-* Achieved 14fps on average with a clock speed of 16mhz, 2kb of sram and a 1.5inch oled screen
+* 14fps on average with a clock speed of 16mhz, 2kb of sram and a 1.5inch oled screen
 * Compatible with every monochrome SPI Arduino display
 * Make-take move functions supplied with a simple Chessboard object
 
