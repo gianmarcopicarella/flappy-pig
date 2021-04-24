@@ -29,8 +29,8 @@ void u8g2_customPage(u8g2_t *u8g2, uint8_t page) {
 You can now compile and try the game!
 
 ### Features:
-* 8bit sound effects when the player dies or earns a point
-* Easy to use controls
+* 8bit sounds effects when the player dies or earns a point
+* Easy to play
 * 14fps on average with a clock speed of 16mhz, 2kb of sram and a 1.5inch oled screen
 * Compatible with every monochrome SPI Arduino display
 
